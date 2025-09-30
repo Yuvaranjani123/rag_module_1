@@ -23,6 +23,10 @@ media/logs/*.log
 media/output/
 staticfiles/
 
+# Allow input files but ignore outputs
+!media/input/
+!media/input/*.pdf
+
 # Streamlit
 .streamlit/
 

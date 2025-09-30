@@ -16,6 +16,7 @@ build/
 *.swp
 *.swo
 *.env
+*.md
 
 # Django
 *.sqlite3

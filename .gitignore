@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+*.db
+*.bak
+*.tmp
+*.swp
+*.swo
+*.env
+
+# Django
+*.sqlite3
+media/logs/*.log
+media/output/
+staticfiles/
+
+# Streamlit
+.streamlit/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ChromaDB
+chunk_manual_rag/chroma_db/
+chunk_manual_rag/data/output/chroma_db/
+insurance_rag/backend/ingestion/chroma_db/
+insurance_rag/backend/ingestion/data/output/chroma_db/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.csv
+*.tsv
+*.xlsx
+*.pdf
+*.docx
+*.pptx
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Test/coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Ignore secrets
+secrets.json
+*.key
+*.pem
+*.crt
+*.pfx

@@ -51,7 +51,9 @@ Thumbs.db
 *.csv
 *.tsv
 *.xlsx
+# Ignore PDFs everywhere except in media/input/
 *.pdf
+!media/input/*.pdf
 *.docx
 *.pptx
 *.zip

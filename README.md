@@ -44,7 +44,7 @@ A comprehensive Retrieval-Augmented Generation (RAG) system for insurance docume
 
 ```bash
 # Navigate to project directory
-cd insurance_rag
+cd rag_module_1
 
 # Create virtual environment (if not exists)
 python -m venv venv
@@ -52,8 +52,6 @@ python -m venv venv
 # Activate virtual environment
 # Windows:
 venv\Scripts\activate
-# Linux/Mac:
-source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
@@ -276,7 +274,7 @@ print(response.json())
 ## Project Structure
 
 ```
-insurance_rag/
+rag_module_1/
 ├── backend/                    # Django REST API
 │   ├── backend/               # Django project settings
 │   │   ├── settings.py       # Django configuration
